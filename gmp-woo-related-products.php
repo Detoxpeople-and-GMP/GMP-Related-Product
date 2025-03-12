@@ -3,7 +3,7 @@
 Plugin Name: GMP Related Product
 Description: Shows a related product grid where the shortcode is added.
 Version: 1.0.0
-Author: GMP(Shalomt)
+Author: detoxpeople
 */
 
 if (!defined('ABSPATH')) {
