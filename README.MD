@@ -1,33 +1,60 @@
-# GMP Woo Related Products
+# GMP Related Products WordPress Plugin
 
 ## Description
 
-The GMP Woo Related Products plugin enhances your WooCommerce store by displaying related products on product pages. This helps to increase cross-selling opportunities and improve the overall shopping experience for your customers.
+The **GMP Related Products** plugin allows you to display a grid of WooCommerce related products anywhere on your WordPress site using a simple shortcode. The plugin provides flexible options to filter related products, such as excluding out-of-stock or backorder items, and filtering by specific product brands.
 
 ## Features
 
-- Display related products on product pages
-- Customize the number of related products shown
-- Responsive design to fit all screen sizes
-- Easy to install and configure
+- Display a related products grid using a shortcode.
+- Filter related products based on current product, cart, or randomly selected products.
+- Option to exclude out-of-stock and backorder products.
+- Filter related products by specific brands selected in the plugin's admin settings.
+- Easily searchable product list in the admin interface for enhanced management.
 
 ## Installation
 
-1. Upload the plugin files to the `/wp-content/plugins/gmp-woo-related-products` directory, or install the plugin through the WordPress plugins screen directly.
-2. Activate the plugin through the 'Plugins' screen in WordPress.
-3. Navigate to the plugin settings to configure your preferences.
+1. Download the plugin zip file or clone the repository.
+2. Upload the plugin to your WordPress site via the WordPress Admin Dashboard by navigating to **Plugins > Add New > Upload Plugin**.
+3. Activate the plugin through the **Plugins** menu in WordPress.
+4. After activation, configure the plugin settings under **WOO Related Products** in the admin menu.
 
 ## Usage
 
+To display the related products grid on any page or post, use the following shortcode:
 
-Once activated, the plugin will automatically display related products on your WooCommerce product pages. You can customize the settings by going to the plugin settings page.
+```
+[gmp_woo_related_products]
+```
+
+This will automatically fetch and display related products based on the current product, cart items, or random products.
+
+## Admin Settings
+
+Navigate to **WOO Related Products** in the admin dashboard to customize the plugin settings:
+
+- **Exclude Out of Stock Products**: Option to hide products that are out of stock.
+- **Exclude Backorder Products**: Option to exclude products on backorder.
+- **Select Brands**: Choose specific brands to display related products from.
+
+## Shortcode Example
+
+To display a related products grid, simply add the following shortcode in any post, page, or widget:
+
+```
+[gmp_woo_related_products]
+```
 
 ## Changelog
 
 ### 1.0.0
 
-- Initial release
+- Initial release with shortcode support and admin settings for filtering related products.
+
+## Author
+
+Developed by **detoxpeople**.
 
 ## License
 
-This plugin is licensed under the [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html).
+This plugin is released under the GPLv2 or later license.
